@@ -1,0 +1,91 @@
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background: url('back.jpg') no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo{
+  color: #00d9d0;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+  background: transparent;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, .5);
+  backdrop-filter: blur(20px);
+}
+
+.divisoria{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.divisoria_alternativa{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+label{
+  color: #000000;
+  font-weight: bold;
+
+}
+
+.botao{
+  background-color: #00d9d0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.botao:hover{
+  transform: scale(1.1);
+}
+
+.cartoes{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background: transparent;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, .5);
+  backdrop-filter: blur(20px);
+  
+}
+
+.card{
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
